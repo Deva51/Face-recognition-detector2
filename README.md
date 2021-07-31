@@ -6,7 +6,7 @@ Emotion recognition is the process of identifying human emotion. People vary wid
 
 Facial expressions are a form of nonverbal communication. Various studies have been done for the classification of these facial expressions. There is strong evidence for the universal facial expressions of seven emotions which include: neutral happy, sadness, anger, disgust, fear, and surprise. So it is very important to detect these emotions on the face as it has wide applications in the field of Computer Vision and Artificial Intelligence. These fields are researching on the facial emotions to get the sentiments of the humans automatically.
 
-Here is the presentation link: https://github.com/Rohit738767/Face-Emotion-Detection03/blob/main/Deeep%20Learning%20presentation%201.pdf
+Here is the presentation link: https://github.com/Deva51/Face-recognition-detector2/blob/main/Deeep%20Learning%20presentation%202.pdf
 
 ## Problem Statement
 The Indian education landscape has been undergoing rapid changes for the past 10 years owing to the advancement of web-based learning services, specifically, eLearning platforms.
@@ -22,7 +22,9 @@ Deep learning backed system not only solves the surveillance issue, but it also 
 I will solve the above-mentioned challenge by applying deep learning algorithms to live video data. The solution to this problem is by recognizing facial emotions.
 
 ## Dataset Information
-I have built a deep learning model which detects the real time emotions of students through a webcam so that teachers can understand if students are able to grasp the topic according to students' expressions or emotions and then deploy the model. The model is trained on the FER-2013 dataset .This dataset consists of 35887 grayscale, 48x48 sized face images with seven emotions - angry, disgusted, fearful, happy, neutral, sad and surprised. Here is the dataset link:- https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset
+I have built a deep learning model which detects the real time emotions of students through a webcam so that teachers can understand if students are able to grasp the topic according to students' expressions or emotions and then deploy the model. The model is trained on the FER-2013 dataset .This dataset consists of 35887 grayscale, 48x48 sized face images with seven emotions - angry, disgusted, fearful, happy, neutral, sad and surprised. 
+
+Here is the dataset link:- https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset
 
 ## Dependencies
 ### Python 3
@@ -58,7 +60,7 @@ In deep learning, a convolutional neural network (CNN, or ConvNet) is a class of
 ![loss and accuracy](https://user-images.githubusercontent.com/87231619/127726635-e6155845-2b5e-40b5-a8e4-6c0029cd98bf.png)
 
 
-To See the Training and Testing python file follow this link: https://github.com/Rohit738767/Face-Emotion-Detection03/blob/main/Face%20Emotion%20Recognition%20.ipynb
+To See the Training and Testing python file follow this link: https://github.com/Deva51/Face-recognition-detector2/blob/main/Face%20Emotion%20Recognition%20.ipynb
 
 ### 3) Using ResNet50
 ResNet50 is a variant of ResNet model which has 48 Convolution layers along with 1 MaxPool and 1 Average Pool layer. It has 3.8 x 10^9 Floating points operations. It is a widely used ResNet model and we have explored ResNet50 architecture in depth.ResNet-50 is a convolutional neural network that is 50 layers deep. You can load a pretrained version of the network trained on more than a million images from the ImageNet database [1]. The pretrained network can classify images into 1000 object categories, such as keyboard, mouse, pencil, and many animals
@@ -74,7 +76,7 @@ We deploy the app in streamlit but it invite the new user and it take time so af
 ## Conclusion
 Finally we build the webapp and deployed which has training accuracy of 66% and test accuracy of 56% .
 
-If you see the how it works in local system, then visit this link:- https://github.com/Rohit738767/Face-Emotion-Detection03/blob/main/Local%20Video.mp4
+If you see the how it works in local system, then visit this link:- https://github.com/Deva51/Face-recognition-detector2/blob/main/Local%20Video.mp4
 
 ## Some real life experience form project
 Understand the deep concept of project
